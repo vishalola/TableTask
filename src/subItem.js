@@ -4,6 +4,7 @@ export default function SubItem(props){
     const [product1,setProduct1] = useState(props.products[0]);
     const [product2,setProduct2] = useState(props.products[1]);
     const [product3,setProduct3] = useState(props.products[2]);
+    
     return (
     <div className="bg-slate-100 py-3 border-t-0 border-0
     border-black w-full flex justify-around">

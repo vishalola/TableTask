@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Table from './table';
+import logo from "./logo.svg";
+import "./App.css";
+import Pricing from "./pricing";
 function App() {
   return (
-    <div className='h-[100vh] m-0 flex justify-center items-center'>
-      <Table/>
-    </div>
+    <>
+      <Pricing />
+    </>
   );
 }
 
