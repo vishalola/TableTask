@@ -3,7 +3,7 @@ import FAQ from "./Components/faq";
 import PlanCompare from "./Components/planCompare";
 import Plan from "./Components/plans";
 import Sponsor from "./Components/sponsorSection";
-import confetti from "https://esm.run/canvas-confetti@1";
+import confetti from "canvas-confetti"
 import Enterprise from "./Components/enterprise";
 export default function Pricing(props){
     const [isYearly, setIsYearly] = useState(false);

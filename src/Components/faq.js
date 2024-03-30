@@ -53,7 +53,7 @@ export default function FAQ(){
                             Frequently Asked <br/> Questions
                         </h2>
                     </div>
-                    <div class="col-span-2 px-3 pb-[100px] sm:px-0" data-orientation="vertical">
+                    <div className="col-span-2 px-3 pb-[100px] sm:px-0" data-orientation="vertical">
                         {list}
                     </div>
                 </div>

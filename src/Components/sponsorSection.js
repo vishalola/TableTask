@@ -24,7 +24,7 @@ export default function Sponsor(props){
     return (
         <div className="my-20">
             <p className="mx-auto max-w-sm text-center text-gray-600 sm:max-w-xl sm:text-lg">
-                Trusted &amp; loved by modern teams at world-class companies
+                Trusted &amp; loved by modern teams at world-className companies
             </p>
             <a  className="mx-auto gap-4 mb-24 mt-8 grid w-full max-w-screen-lg grid-cols-2 items-center px-5 md:grid-cols-6 md:px-0">
                 {list}
