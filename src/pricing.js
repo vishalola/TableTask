@@ -3,14 +3,23 @@ import FAQ from "./Components/faq";
 import PlanCompare from "./Components/planCompare";
 import Plan from "./Components/plans";
 import Sponsor from "./Components/sponsorSection";
+import confetti from "https://esm.run/canvas-confetti@1";
+import Enterprise from "./Components/enterprise";
 export default function Pricing(props){
     const [isYearly, setIsYearly] = useState(false);
 
     const handleModeToggle = () => {
+    if(!isYearly)
+    {
+        confetti({
+            particleCount: 150,
+            spread: 100
+          });
+    }
       setIsYearly(!isYearly);
     };
     return (
-        <div>
+        <div className="">
             <div className="outlin mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 mb-8 mt-16">
                 <div className="outlin mx-auto mb-6 text-center sm:max-w-lg">
                     <h1 className="font-display text-4xl font-extrabold text-black [text-wrap:balance] sm:text-5xl sm:leading-tight">
@@ -44,6 +53,7 @@ export default function Pricing(props){
                 </div>
             </div>
             <Plan yearly={isYearly}/>
+            <Enterprise/>
             <Sponsor/>
             <PlanCompare/>
             <FAQ/>

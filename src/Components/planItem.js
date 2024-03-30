@@ -25,7 +25,7 @@ export default function PlanItem(props){
                     </h3>
                 </div>
                 <p class="mt-2 text-gray-500">
-                    {props.description || 'description'}
+                    {props.description}
                 </p>
                 <div class="my-4 flex items-end space-x-2">
                     <p class="font-display text-5xl font-semibold">${props.price || '0'}</p>
@@ -34,7 +34,7 @@ export default function PlanItem(props){
                 </div>
             </div>
             <div class="flex items-center justify-center border-b border-t border-gray-200 bg-gray-50 px-8 py-5">
-                <a class={`block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent ${props.popular?'bg-blue-500 border-blue-500 hover:text-blue-500':'bg-black border-black hover:text-black'} `} href="https://app.dub.co/register">
+                <a class={`block w-full rounded-full border py-2 text-center font-medium text-white transition-all duration-200 ease-in-out hover:bg-transparent ${props.popular?'bg-blue-500 border-blue-500 hover:text-blue-500':'bg-black border-black hover:text-black'} `} href="/register">
                     Subscribe
                 </a>
             </div>
