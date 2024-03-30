@@ -29,8 +29,8 @@ export default function Enterprise() {
     },[])
   return (
     <div className="mx-auto w-full max-w-screen-xl px-2.5 lg:px-20 ">
-      <div className="mx-auto mt-8 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-lg sm:w-4/5">
-        <div className="flex flex-col justify-between space-y-4 p-8 pb-0 sm:flex-row sm:items-center sm:space-y-0 sm:p-16 sm:pb-0">
+      <div className=" mx-auto mt-8 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-lg sm:w-4/5">
+        <div className=" flex flex-col justify-between space-y-4 p-8 pb-0 sm:flex-row sm:items-center sm:space-y-0 sm:p-16 sm:pb-0">
           <div>
             <h3 className="font-display text-2xl font-bold sm:text-3xl">
               Elephant.ai{" "}

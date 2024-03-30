@@ -5,6 +5,7 @@ import Plan from "./Components/plans";
 import Sponsor from "./Components/sponsorSection";
 import confetti from "canvas-confetti"
 import Enterprise from "./Components/enterprise";
+import AddOns from "./Components/addOns";
 export default function Pricing(props){
     const [isYearly, setIsYearly] = useState(false);
 
@@ -54,6 +55,7 @@ export default function Pricing(props){
             </div>
             <Plan yearly={isYearly}/>
             <Enterprise/>
+            <AddOns/>
             <Sponsor/>
             <PlanCompare/>
             <FAQ/>
